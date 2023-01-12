@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { HashLink as Link } from 'react-router-hash-link';
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -34,9 +35,9 @@ const RightNav = ({ open }) => {
     <Ul open={open}>
       <li id='btn-1' >Home</li>
       <li id='btn-2' >Register</li>
-      <li id='btn-3'>Contact Us</li>
-      <li id='btn-4'>Guidlines</li>
-      <li id='btn-5'>Timeline</li>
+      <Link to="#footer" id='btn-3' ><li >Contact Us</li></Link>
+      <Link to="#guidelines" id='btn-4' ><li>Guidlines</li></Link>
+      <Link to="#timelinediv" id='btn-5' ><li>Timeline</li></Link>
     </Ul>
   )
 }
