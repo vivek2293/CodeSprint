@@ -64,12 +64,8 @@
   
   
   
-  #timelinediv{
-      background-color: rgb(47,47,47);
   
   
-  
-  }
   #card1{
   background-color: rgb(216,81,64);
   }
@@ -196,7 +192,7 @@ ul{
 }
 
 .footer{
-	background-color: #2f2f2f;
+	background-color: black;
     padding: 35px 0;
 }
 .footer-col{
@@ -260,8 +256,13 @@ ul{
 	}
 }
 @media(max-width: 574px){
+  
   .footer-col{
     width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 3vw;
+
 	}
 	.devheat_image {
 		width: 125px;
@@ -272,4 +273,9 @@ ul{
 .devheat_image {
     width: 250px;
 	padding: 20px 0;
+}
+
+
+#pagediv{
+    background-color: black;
 }
