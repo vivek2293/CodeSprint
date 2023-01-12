@@ -4,9 +4,8 @@ export class Guidline extends Component {
   render() {
     return (
         <>
-            <img src={Guidline} alt="" />
+         <img src={Guidlinelogo} alt="" />
         
-        <h1 className='text-light'>guidline</h1>
         <ul className='text-light'>
             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores assumenda minus excepturi quisquam neque quidem ipsam facere numquam quasi corrupti?</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa atque accusamus dolorem corporis vel nisi non neque! Cumque facere assumenda minima voluptatem quod, error corporis quisquam qui porro. Quia, doloremque.</li>
