@@ -1,5 +1,4 @@
 import React from "react";
-import Content from "./RightNav";
 import Gdscpng from '../../Assets/gdsc.png'
 import Glogo from "../../Assets/glogo.png"
 import Hamburger from "./Burger";
