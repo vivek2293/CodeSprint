@@ -11,10 +11,12 @@ function Homepage() {
     <>
     <Navbar />
     <Main />
+    <div id='pagediv'>
     <Timeline />
     <Ques />
     <Guidline />
     <Footer/>
+    </div>
     </>
 
   )
