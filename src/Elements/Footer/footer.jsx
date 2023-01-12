@@ -30,20 +30,20 @@ export default function Footer() {
               <h4>Contact Us</h4>
               <ul className="links">
                 <li>
-                  <img src={Users} className="awesomefnt" alt="" />
+                  <img src={Users} className="awesomefnt" alt="not found" />
                   <span>Community Page</span>
                 </li>
                 <li>
-                  <img src={Envelope}  className="awesomefnt" alt="" />
+                  <img src={Envelope}  className="awesomefnt" alt="not found" />
                   <span style={{textTransform: "lowercase"}}>
                     gdsc@iiitsurat.ac.in
                   </span>
                 </li>
                 <li>
-                  <img src={Phone} alt=""  className="awesomefnt" /> Person - Number
+                  <img src={Phone} alt="not found"  className="awesomefnt" /> Person - Number
                 </li>
                 <li>
-                 <img src={Phone} alt="" className="awesomefnt" /> Person - Number
+                 <img src={Phone} alt="not found" className="awesomefnt" /> Person - Number
                 </li>
               </ul>
             </div>
@@ -51,23 +51,23 @@ export default function Footer() {
               <h4>follow us</h4>
               <div className="social-links">
                 <div>
-                <img src={Twitter} alt="" className="awesomefnt"/>
+                <img src={Twitter} alt="not found" className="awesomefnt"/>
                     <span className="links"> Twitter</span>
                 </div>
                 <div>
-                <img src={Instagram} className="awesomefnt" alt="" />
+                <img src={Instagram} className="awesomefnt" alt="not found" />
                 <span className="links"> Instagram</span>
                 </div>
                 <div>
-                    <img src={Linkedin} className="awesomefnt" alt="" />
+                    <img src={Linkedin} className="awesomefnt" alt="not found" />
                     <span className="links"> LinkedIn</span>
                 </div>
                 <div>
-                    <img src={Github} className="awesomefnt" alt="" />
+                    <img src={Github} className="awesomefnt" alt="not found" />
                     <span className="links"> GitHub</span>
                 </div>
                 <div>
-                    <img src={Discord} className="awesomefnt" alt="" />
+                    <img src={Discord} className="awesomefnt" alt="not found" />
                     <span className="links"> Discord</span>
                 </div>
               </div>
