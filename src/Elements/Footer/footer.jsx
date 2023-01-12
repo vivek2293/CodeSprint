@@ -8,7 +8,7 @@ import Instagram from "../../Assets/instagram.svg";
 import Linkedin from "../../Assets/linkedin.svg"
 import Github from "../../Assets/github.svg"
 import Discord from "../../Assets/discord.svg"
-import { HashLink as Link } from 'react-router-hash-link';
+// import Discord1 from "../../Assets/discord1.svg"
 
 export default function Footer() {
 
