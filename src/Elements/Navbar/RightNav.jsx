@@ -5,21 +5,23 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+
   li {
     color: white;
     padding: 18px 10px;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    // background-color: black;
-    background: rgb(93,93,93);
-background: linear-gradient(306deg, rgba(93,93,93,1) 31%, rgba(47,47,47,1) 61%, rgba(47,47,47,1) 78%);
     position: fixed;
+    background-color: rgb(66, 66, 66);
+
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
     height: 40vh;
-    width: 300px;
+    width: 200px;
+    border-radius: 2.5rem;
+    font-weight:bold;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     transition: transform 0.0s ease-in-out;
@@ -31,11 +33,11 @@ background: linear-gradient(306deg, rgba(93,93,93,1) 31%, rgba(47,47,47,1) 61%, 
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <a><li>Home</li></a>
-      <a><li>Register</li></a>
-      <a><li>Contact Us</li></a>
-      <a><li>Guidlines</li></a>
-      <a><li>Timeline</li></a>
+      <a><li id='btn-1'>Home</li></a>
+      <a><li id='btn-2'>Register</li></a>
+      <a><li id='btn-3'>Contact Us</li></a>
+      <a><li id='btn-4'>Guidlines</li></a>
+      <a><li id='btn-5'>Timeline</li></a>
     </Ul>
   )
 }

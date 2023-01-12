@@ -1,8 +1,10 @@
 import React from "react";
-
+import Timelinelogo from "../../Assets/timeline.svg"
 function Timeline() {
     return (
         <>
+            <img src={Timelinelogo} alt="" />
+            
             <section
                 // style={{ height: "200vh" }}
                 className="row justify-content-around align-items-center"

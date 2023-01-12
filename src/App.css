@@ -1,149 +1,175 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body{
-    background-color: rgb(47,47,47);
-
-}
-/****************************************Navbar*****************************/
-.burgerinsidediv{
-    width: 2rem;
-    height: 0.25rem;
-    background-color: black;
-    border-radius: 10px;
-}
-
-#navdiv {
-  height: 7vw;
-  /* background: rgb(47,47,47); */
-}
-#gdscimage {
-  max-width: 35vw;
-}
-
-
-
-/**********************************main************************/
-
-
-#logo {
-    width: 50vw;
-}
-
-
-
-#mainsection{
-    height:80vh;
-    /* background-color: rgb(47,47,47); */
-
-}
-
-
-
-
-#timelinediv{
-    background-color: rgb(47,47,47);
-
-
-}
-#card1{
-background-color: rgb(216,81,64);
-}
-#card2{
-    background-color: rgb(83,131,236);
-    }
-    #card3{
-        background-color: rgb(86,161,90);
-        }
-        #card4{
-            background-color: rgb(241,191,66);
-            }
-            #card5{
-                background-color: rgb(216,81,64);
-                }
-#registerbtn{
-    color: rgb(241,191,66);
-    border: 2px solid rgb(241,191,66);
-}
-#gdsclogo{
-    display: none;
-}
-
-
-
-
-@media(max-width : 768px){
-    #gdscimage{
-        display: none;
-        /* max-width: 60vw; */
-
-    }
-    #navdiv{
-        height: 10vw;
-    }
-    #mainsection{
-        height:100vh;
-    
-    }
-    #gdsclogo{
-        padding-top: 1vh;
-        padding-left: 1vw;
-        display: flex;
-        width: 8vh;
-    }
-}
-
-
-
-
-#faq1 {
-    max-width: 19rem;
-}
-
-#faq2 {
-    max-width: 19rem;
-}
-
-#faq3 {
-    max-width: 19rem;
-}
-
-.upper-div {
-    background-color: #2F2F2F;
-}
-
-#plus1 {
-    color: white;
-}
-
-#minus1 {
-    color: white;
-}
-
-#plus2 {
-    color: white;
-}
-
-#minus2 {
-    color: white;
-}
-
-#plus3 {
-    color: white;
-}
-
-#minus3 {
-    color: white;
-}
-
-#faqmaindiv{
-
-    background-color: rgb(47,47,47);
-
-}
-#faqsubdiv{
-    border: 1px solid white;
-
-}
+    padding: 0.15vw;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: rgb(47,47,47);
+  
+  }
+  /****************************************Navbar*****************************/
+  .burgerinsidediv{
+      width: 2rem;
+      height: 0.25rem;
+      background-color: black;
+      border-radius: 10px;
+  }
+  
+  #navdiv {
+    height: 7vw;
+    /* background: rgb(47,47,47); */
+  }
+  #gdscimage {
+    max-width: 35vw;
+  }
+  
+  #btn-1:hover{
+      font-size: 1.2rem;
+      transition: 0.2s ease-in-out;
+  }
+  #btn-2:hover{
+      font-size: 1.2rem;
+      transition: 0.2s ease-in-out;
+  }
+  #btn-3:hover{
+      font-size: 1.2rem;
+      transition: 0.2s ease-in-out;
+  }
+  #btn-4:hover{
+      font-size: 1.2rem;
+      transition: 0.2s ease-in-out;
+  }
+  #btn-5:hover{
+      font-size: 1.2rem;
+      transition: 0.2s ease-in-out;
+  }
+  
+  /**********************************main************************/
+  
+  
+  #logo {
+      width: 50vw;
+  }
+  
+  
+  
+  #mainsection{
+      height:100vh;
+      /* background-color: rgb(47,47,47); */
+  
+  }
+  
+  
+  
+  
+  #timelinediv{
+      background-color: rgb(47,47,47);
+  
+  
+  
+  }
+  #card1{
+  background-color: rgb(216,81,64);
+  }
+  #card2{
+      background-color: rgb(83,131,236);
+      }
+      #card3{
+          background-color: rgb(86,161,90);
+          }
+          #card4{
+              background-color: rgb(241,191,66);
+              }
+              #card5{
+                  background-color: rgb(216,81,64);
+                  }
+  #registerbtn{
+      color: rgb(241,191,66);
+      border: 2px solid rgb(241,191,66);
+  }
+  
+  #registerbtn:hover{
+      color:rgb(47,47,47);;
+      background-color: rgb(241,191,66);
+  }
+  
+  #gdsclogo{
+      display: none;
+  }
+  
+  
+  
+  @media(max-width : 768px){
+      #gdscimage{
+          display: none;
+          /* max-width: 60vw; */
+  
+      }
+      #navdiv{
+          height: 10vw;
+      }
+      #mainsection{
+          height:100vh;
+      
+      }
+      #gdsclogo{
+          padding-top: 1vh;
+          padding-left: 1vw;
+          display: flex;
+          width: 8vh;
+      }
+  }
+  
+  .upper-div {
+      background-color: #3c3a3a;
+      border-radius: 0.5rem;
+  }
+  
+  .lower-div{
+      background-color: #eeecec;
+      border-radius: 0.3rem;
+      padding-left: 0.4rem;
+      padding-right: 0.1rem;
+      background-color: #f7e7b6;
+  
+  }
+  #plus1 {
+      color: white;
+  }
+  
+  #minus1 {
+      color: white;
+  }
+  
+  #plus2 {
+      color: white;
+  }
+  
+  #minus2 {
+      color: white;
+  }
+  
+  #plus3 {
+      color: white;
+  }
+  
+  #minus3 {
+      color: white;
+  }
+  #faqmaindiv{
+  
+      background-color: rgb(47,47,47);
+  
+  }
+  #faqsubdiv{
+      border: 1px solid white;
+  
+  }
+  
+  #horizontalline{
+      color: orange;
+  }
+  
+  #timelinelogo{
+      width: 25vw;
+  }
