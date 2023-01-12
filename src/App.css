@@ -1,3 +1,6 @@
+::-webkit-scrollbar{
+    display: none;
+}
 * {
     padding: 0.15vw;
     margin: 0;
@@ -5,7 +8,6 @@
   }
   body{
       background-color: rgb(47,47,47);
-  
   }
   /****************************************Navbar*****************************/
   .burgerinsidediv{
@@ -173,3 +175,89 @@
   #timelinelogo{
       width: 25vw;
   }
+
+
+.devheat_image{
+    width: 1rem;
+  }
+
+  .footer-container{
+	max-width: 1170px;
+	margin:auto;
+}
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #717171;
+    padding: 35px 0;
+}
+.footer-col{
+   width: 25%;
+   /* padding: 0 12px; */
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li span {
+    margin-left: 8px;
+}
+
+
+#user-img{
+    height: 4vh;
+}
+
+.awesomefnt{
+    width: 1.5rem;
+}
+/*responsive*/
+
+@media(max-width: 1000px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+	}
+	.devheat_image {
+		width: 125px;
+		padding: 20px 0;
+	}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+	}
+	.devheat_image {
+		width: 125px;
+		padding: 20px 0;
+	}
+}
+
+.devheat_image {
+    width: 250px;
+	padding: 20px 0;
+}
