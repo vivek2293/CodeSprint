@@ -10,7 +10,7 @@ export default function Main() {
                 <div className="d-flex flex-column align-items-center" id="maindiv">
                         <Particle />
                         <h3 className="text-center"><img src={Logo} alt="" id="logo" /></h3>
-                        <button type="button" className="btn btn-custom button1" id="registerbtn">Register</button>
+                        <button type="button" className="btn btn-custom button1 fw-bold" id="registerbtn">Register</button>
                 </div>
             </section>
             </div>
