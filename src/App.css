@@ -82,8 +82,9 @@
                   background-color: rgb(216,81,64);
                   }
   #registerbtn{
-      color: rgb(241,191,66);
-      border: 2px solid rgb(241,191,66);
+    padding: 1vh 7vw;
+    color: rgb(241,191,66);
+    border: 2px solid rgb(241,191,66);
   }
   
   #registerbtn:hover{
