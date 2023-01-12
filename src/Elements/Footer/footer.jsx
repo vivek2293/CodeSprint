@@ -7,6 +7,8 @@ import Twitter from "../../Assets/twitter.svg";
 import Instagram from "../../Assets/instagram.svg";
 import Linkedin from "../../Assets/linkedin.svg"
 import Github from "../../Assets/github.svg"
+import Discord from "../../Assets/discord.svg"
+import Discord1 from "../../Assets/discord1.svg"
 
 export default function Footer() {
   return (
@@ -19,16 +21,16 @@ export default function Footer() {
             </div>
             <div className="footer-col">
               <h4>More Links</h4>
-              <ul>
+              <ul className="links">
                 <li>Google Developers</li>
                 <li>IIIT Surat</li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>Contact Us</h4>
-              <ul>
+              <ul className="links">
                 <li>
-                  <img src={Users} className="awesomefnt"  alt="" />
+                  <img src={Users} className="awesomefnt" alt="" />
                   <span>Community Page</span>
                 </li>
                 <li>
@@ -50,19 +52,23 @@ export default function Footer() {
               <div className="social-links">
                 <div>
                 <img src={Twitter} alt="" className="awesomefnt"/>
-                    <span> Twitter</span>
+                    <span className="links"> Twitter</span>
                 </div>
                 <div>
                 <img src={Instagram} className="awesomefnt" alt="" />
-                <span> Instagram</span>
+                <span className="links"> Instagram</span>
                 </div>
                 <div>
                     <img src={Linkedin} className="awesomefnt" alt="" />
-                    <span> LinkedIn</span>
+                    <span className="links"> LinkedIn</span>
                 </div>
                 <div>
                     <img src={Github} className="awesomefnt" alt="" />
-                    <span> GitHub</span>
+                    <span className="links"> GitHub</span>
+                </div>
+                <div>
+                    <img src={Discord} className="awesomefnt" alt="" />
+                    <span className="links"> Discord</span>
                 </div>
               </div>
             </div>
