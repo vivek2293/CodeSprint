@@ -5,6 +5,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  z-index:1;
 
   li {
     color: white;
@@ -18,7 +19,7 @@ const Ul = styled.ul`
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
-    height: 40vh;
+    height: 50vh;
     width: 200px;
     border-radius: 2.5rem;
     font-weight:bold;

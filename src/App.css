@@ -7,7 +7,8 @@
     box-sizing: border-box;
   }
   body{
-      background-color: rgb(47,47,47);
+      background-color: black;
+      background-attachment: fixed;
   }
   /****************************************Navbar*****************************/
   .burgerinsidediv{
@@ -16,7 +17,7 @@
       background-color: black;
       border-radius: 10px;
   }
-  
+
   #navdiv {
     height: 7vw;
     /* background: rgb(47,47,47); */
@@ -27,6 +28,12 @@
 
   #btn-3{
     text-decoration: none;
+  }
+  #btn-1{
+    cursor: pointer;
+  }
+  #btn-2{
+    cursor: pointer;
   }
   #btn-4{
     text-decoration: none;
@@ -108,7 +115,18 @@
   }
   
   
-  
+  .bullets-guideline{
+    list-style: none;
+
+  }
+
+  .bullets-guideline::before{
+    content: "\2022";
+    color: white;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
   @media(max-width : 768px){
       #gdscimage{
           display: none;
@@ -289,4 +307,60 @@ ul{
 
 #pagediv{
     background-color: black;
+}
+
+#links-11:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-10:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-9:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-8:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-7:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-6:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-5:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-4:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-3:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-2:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+}
+#links-1:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
 }
