@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-
+import Guidlinelogo from "../../Assets/Guidelines.svg"
 export class Guidline extends Component {
   render() {
     return (
         <>
-        <h1 className='text-light'>guidline</h1>
+         <img src={Guidlinelogo} alt="" />
+        
         <ul className='text-light'>
             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores assumenda minus excepturi quisquam neque quidem ipsam facere numquam quasi corrupti?</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa atque accusamus dolorem corporis vel nisi non neque! Cumque facere assumenda minima voluptatem quod, error corporis quisquam qui porro. Quia, doloremque.</li>
