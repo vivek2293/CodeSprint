@@ -4,6 +4,8 @@ export class Guidline extends Component {
   render() {
     return (
         <>
+        <div className='my-5'>
+
          <img src={Guidlinelogo} alt="" style={{padding:"1.4rem"}}/>
         
         <ul className='text-light'>
@@ -15,6 +17,7 @@ export class Guidline extends Component {
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, enim.</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, perferendis.</li>
         </ul>
+        </div>
         <hr style={{color:"#FBBC04"}}/>
         </>
     )

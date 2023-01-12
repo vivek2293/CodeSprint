@@ -32,8 +32,8 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li id='btn-1'>Home</li>
-      <li id='btn-2'>Register</li>
+      <li id='btn-1' >Home</li>
+      <li id='btn-2' >Register</li>
       <li id='btn-3'>Contact Us</li>
       <li id='btn-4'>Guidlines</li>
       <li id='btn-5'>Timeline</li>
