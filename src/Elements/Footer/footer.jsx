@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Logo from "../../Assets/Logo.svg";
 import Users from "../../Assets/users.svg";
 import Envelope from "../../Assets/envelope.svg";
