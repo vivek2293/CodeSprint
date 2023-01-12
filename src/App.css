@@ -231,10 +231,13 @@ ul{
 
 .links{
     padding-left: 0;
-
+    padding-top: 1rem;
     color: #f7c6a5;
 }
 
+.social-links{
+    padding-top: 1rem;
+}
 #user-img{
     height: 4vh;
 }
