@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -33,11 +32,11 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <a><li id='btn-1'>Home</li></a>
-      <a><li id='btn-2'>Register</li></a>
-      <a><li id='btn-3'>Contact Us</li></a>
-      <a><li id='btn-4'>Guidlines</li></a>
-      <a><li id='btn-5'>Timeline</li></a>
+      <li id='btn-1'>Home</li>
+      <li id='btn-2'>Register</li>
+      <li id='btn-3'>Contact Us</li>
+      <li id='btn-4'>Guidlines</li>
+      <li id='btn-5'>Timeline</li>
     </Ul>
   )
 }
