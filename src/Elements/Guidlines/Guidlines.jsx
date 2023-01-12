@@ -4,7 +4,7 @@ export class Guidline extends Component {
   render() {
     return (
         <>
-         <img src={Guidlinelogo} alt="" />
+         <img src={Guidlinelogo} alt="" style={{padding:"1.4rem"}}/>
         
         <ul className='text-light'>
             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores assumenda minus excepturi quisquam neque quidem ipsam facere numquam quasi corrupti?</li>
