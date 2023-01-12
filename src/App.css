@@ -3,7 +3,7 @@
 }
 * {
     padding: 0.15vw;
-    margin: 0;
+    margin: 0 !important;
     box-sizing: border-box;
   }
   body{
@@ -181,9 +181,7 @@
     width: 1rem;
   }
 
-  .footer{
-    padding: 0;
-  }
+
   .footer-container{
 	max-width: 1170px;
 	margin:auto;
