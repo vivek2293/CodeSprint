@@ -15,7 +15,6 @@ export class Guidline extends Component {
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, enim.</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, perferendis.</li>
         </ul>
-        {/* <hr style={{color:"#FBBC04"}}/> */}
         </>
     )
   }

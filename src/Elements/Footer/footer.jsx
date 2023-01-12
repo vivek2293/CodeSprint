@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="footer-container">
           <div className="footer-row">
             <div className="footer-col">
-              <img src={Logo} className="devheat_image" />
+              <img src={Logo} className="devheat_image" alt="not found"/>
             </div>
             <div className="footer-col">
               <h4>More Links</h4>
