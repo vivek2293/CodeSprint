@@ -13,7 +13,7 @@ import Discord1 from "../../Assets/discord1.svg"
 export default function Footer() {
   return (
     <>
-      <div className="footer">
+      <section className="footer" id="footer">
         <div className="footer-container">
           <div className="footer-row">
             <div className="footer-col">
@@ -74,7 +74,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
