@@ -17,10 +17,10 @@ export default function Ques() {
 
     return (
     <>
-        <div className="my-4 px-3">
-            <img src={Faq} alt="" />
+        <div className="mt-5 px-3" >
+            <img src={Faq} alt="" id="faqimg"/>
         </div>
-        <div className="d-flex justify-content-center align-items-center my-5">
+        <div className="d-flex justify-content-center align-items-center mt-2">
             <div className="faq-cont d-flex flex-column w-75 justify-content-center align-items-center">
                 <div className="faq-1 d-flex flex-column w-100 my-1 py-0" id="faq1">
                     <div className="upper-div d-flex flex-row justify-content-between" id="upper-div">

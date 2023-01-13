@@ -7,7 +7,7 @@ function Timeline() {
             >
                 <div className="row justify-content-md-start justify-content-center pe-md-4">
                     <div className="col-md-11 row align-items-center justify-content-around">
-                        <div className="card col-8 col-md-3 my-2 shadow-lg p-4" style={{ height: "18rem" }} id="card1" >
+                        <div className="card col-8 col-md-3 my-2 shadow-lg p-4" style={{ height: "18rem"} } id="card1" >
                             <h3 className="text-center textdarkt fw-bold my-2">Web Dev</h3>
                             <div className="row justify-content-center align-items-center">
                                 <h6 className="text-center text-dark m-2">16th January</h6>

@@ -5,11 +5,11 @@ export class Guidline extends Component {
     return (
         <>
         <section id='guidelines'>
-        <div className='my-5'>
+        <div className='mt-5'>
 
 <img src={Guidlinelogo} alt="" style={{padding:"1.4rem"}}/>
 
-<ul className='text-light'>
+<ul className='text-light ps-5'>
    <li className='bullets-guideline'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores assumenda minus excepturi quisquam neque quidem ipsam facere numquam quasi corrupti?</li>
    <li className='bullets-guideline'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa atque accusamus dolorem corporis vel nisi non neque! Cumque facere assumenda minima voluptatem quod, error corporis quisquam qui porro. Quia, doloremque.</li>
    <li className='bullets-guideline'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique sint facilis quo necessitatibus vel iure minima voluptates hic asperiores nemo.</li>

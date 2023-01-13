@@ -216,7 +216,7 @@ const particlesLoaded = useCallback(async container => {
       }
     },
     color: {
-      value: "#FF0000",
+      value: "#ff0000",
       animation: {
         h: {
           count: 0,

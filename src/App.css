@@ -68,7 +68,10 @@
   
   
   #logo {
-      width: 50vw;
+      width: 33vw;
+  }
+  #campaignlogo{
+    height:5vw;
   }
   
   
@@ -85,29 +88,37 @@
   
   
   #card1{
-  background-color: rgb(216,81,64);
+  /* background-color: rgb(216,81,64);
+   */
+   background-image: linear-gradient(to bottom, #d85140, #db6850, #de7c62, #e09075, #e1a28a);
   }
   #card2{
-      background-color: rgb(83,131,236);
+      /* background-color: rgb(83,131,236); */
+      background-image: linear-gradient(to bottom, #5383ec, #608dea, #6d97e8, #7ba1e4, #8aaae1);
       }
       #card3{
-          background-color: rgb(86,161,90);
+          /* background-color: rgb(86,161,90); */
+          background-image: linear-gradient(to bottom, #56a15a, #60b174, #6cc18d, #7ad1a6, #8ae1bf);
           }
           #card4{
-              background-color: rgb(241,191,66);
+              /* background-color: rgb(241,191,66); */
+              background-image: linear-gradient(to bottom, #f1bf42, #ecc455, #e8c967, #e4cd79, #e1d18a);
               }
               #card5{
-                  background-color: rgb(216,81,64);
+                background-image: linear-gradient(to bottom, #d85140, #db6850, #de7c62, #e09075, #e1a28a);
+
                   }
   #registerbtn{
-    padding: 1vh 7vw;
+    padding: 1vh 5vw;
     color: rgb(241,191,66);
     border: 2px solid rgb(241,191,66);
+    margin-top: 1.5vw !important;
   }
   
   #registerbtn:hover{
-      color:rgb(47,47,47);;
-      background-color: rgb(241,191,66);
+      color:rgb(47,47,47);
+      background-color: rgba(255, 174, 0, 0.919);
+      border: 1px solid rgba(255, 174, 0, 0.919);
   }
   
   #gdsclogo{
@@ -127,26 +138,7 @@
     width: 1em;
     margin-left: -1em;
   }
-  @media(max-width : 768px){
-      #gdscimage{
-          display: none;
-          /* max-width: 60vw; */
-  
-      }
-      #navdiv{
-          height: 10vw;
-      }
-      #mainsection{
-          height:100vh;
-      
-      }
-      #gdsclogo{
-          padding-top: 1vh;
-          padding-left: 1vw;
-          display: flex;
-          width: 8vh;
-      }
-  }
+ 
   
   .upper-div {
       background-color: #3c3a3a;
@@ -221,7 +213,7 @@ ul{
 }
 
 .footer{
-	background-color: black;
+    background: rgb(37, 37, 37);
     padding: 35px 0;
 }
 .footer-col{
@@ -274,30 +266,8 @@ ul{
 }
 /*responsive*/
 
-@media(max-width: 1000px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-	}
-	.devheat_image {
-		width: 125px;
-		padding: 20px 0;
-	}
-}
-@media(max-width: 574px){
-  
-  .footer-col{
-    width: 100%;
-    /* display: flex; */
-    /* justify-content: center; */
-    padding-left: 3vw;
 
-	}
-	.devheat_image {
-		width: 125px;
-		padding: 20px 0;
-	}
-}
+
 
 .devheat_image {
     width: 250px;
@@ -363,6 +333,7 @@ ul{
     cursor: pointer;
     font-size: 1.2rem;
     transition: 0.2s ease-in-out;
+    
 }
 .bg {
     background: black;
@@ -379,3 +350,120 @@ ul{
     margin-top: 2rem;
     width: 100%;
   }
+
+  #footerlogo{
+    margin-top: 5vw;
+  }
+
+  @media(max-width: 574px){
+  
+    .footer-col{
+      width: 100%;
+      /* display: flex; */
+      /* justify-content: center; */
+      padding-left: 3vw;
+  
+      }
+      .devheat_image {
+          width: 125px;
+          padding: 20px 0;
+      }
+      #footerlogo{
+        width: 43vw !important;
+          margin-top: 0vw !important;
+      }
+      #footerdiv{
+        display: flex !important;
+        flex-direction: column !important;
+      }
+  }
+  @media(max-width: 1000px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+      }
+    #card1{
+        width: 75vw !important;
+        margin-bottom: 3.5vw !important;
+    }
+    #card2{
+        width: 75vw !important;
+        margin-bottom: 3.5vw !important;
+
+    }
+    #card3{
+        width: 75vw !important;
+        margin-bottom: 3.5vw !important;
+
+    }
+    #card4{
+        width: 75vw !important;
+        margin-bottom: 3.5vw !important;
+
+    }
+    #card5{
+        width: 75vw !important;
+        margin-bottom: 3.5vw !important;
+
+    }
+      .devheat_image {
+          width: 125px;
+          padding: 20px 0;
+      }
+  }
+  @media(max-width : 768px){
+    #gdscimage{
+        display: none;
+        /* max-width: 60vw; */
+
+    }
+    #registerbtn{
+        padding: 0.4vh 3vw;
+        color: rgb(241,191,66);
+        border: 2px solid rgb(241,191,66);
+        margin-top: 2vw !important;
+      }
+    #tagline{
+        width: 37vw;
+    }
+    #campaignlogo{
+        height: 7.5vw;
+    }
+    #logo{
+        width: 50vw;
+    }
+    #navdiv{
+        height: 10vw;
+    }
+    #mainsection{
+        height:100vh;
+    
+    }
+    #gdsclogo{
+        padding-top: 1vh;
+        padding-left: 1vw;
+        display: flex;
+        width: 8vh;
+    }
+}
+#links-1{
+    color: rgb(185, 185, 191) !important;
+}
+#links-2{
+    color: rgb(185, 185, 191) !important;
+}
+#links-3{
+    color: rgb(185, 185, 191) !important;
+}
+#links-4{
+    color: rgb(185, 185, 191) !important;
+}
+#links5{
+    color: rgb(185, 185, 191) !important;
+}
+#links6{
+    color: rgb(185, 185, 191) !important;
+}
+#faqimg{
+    margin-top: 5vw;
+}

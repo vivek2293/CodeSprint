@@ -38,22 +38,23 @@ export default function Footer() {
     function handleChange9() {
         window.location.href='';
     }
+    //148 148 150
   return (
     <>
-      <section className="footer" id="footer">
-        <div className="footer-container">
-          <div className="footer-row">
-            <div className="footer-col">
-              <img src={Logo} className="devheat_image" alt="not found"/>
+      <section className="footer " id="footer">
+        <div className="footer-container" >
+          <div className="footer-row" id="footerdiv">
+            <div className="footer-col"  >
+              <img src={Logo} className="devheat_image" alt="not found" id="footerlogo"/>
             </div>
-            <div className="footer-col">
+            <div className="footer-col my-1">
               <h4>More Links</h4>
               <ul className="links">
-                <li onClick={handleChange1} id="links-1" >Google Developers</li>
+                <li onClick={handleChange1} id="links-1">Google Developers</li>
                 <li onClick={handleChange2} id="links-2" >IIIT Surat</li>
               </ul>
             </div>
-            <div className="footer-col">
+            <div className="footer-col my-1">
               <h4>Contact Us</h4>
               <ul className="links">
                 <li>
@@ -67,35 +68,31 @@ export default function Footer() {
                   </span>
                 </li>
                 <li>
-                  <img src={Phone} alt="not found"  className="awesomefnt" id="links-5"/> Person - Number
+                  <img src={Phone} alt="not found"  className="awesomefnt" id="links-5"/> <span id="links5">Person - Number</span> 
                 </li>
                 <li>
-                 <img src={Phone} alt="not found" className="awesomefnt" id="links-6"/> Person - Number
+                 <img src={Phone} alt="not found" className="awesomefnt" id="links-6"/> <span id="links6"> Person - Number</span>
                 </li>
               </ul>
             </div>
-            <div className="footer-col">
+            <div className="footer-col my-1">
               <h4>follow us</h4>
-              <div className="social-links">
+              <div className="social-links d-flex ">
                 <div>
-                <img src={Twitter} alt="not found" className="awesomefnt" />
-                    <span className="links" onClick={handleChange5} id="links-7"> Twitter</span>
+                <img src={Twitter} alt="not found" className="awesomefnt mx-1"  onClick={handleChange5} id="links-7"/>
+
                 </div>
                 <div>
-                <img src={Instagram} className="awesomefnt" alt="not found"/>
-                <span className="links"  onClick={handleChange6} id="links-8"> Instagram</span>
+                <img src={Instagram} className="awesomefnt mx-1" alt="not found" onClick={handleChange6} id="links-8"/>
                 </div>
                 <div>
-                    <img src={Linkedin} className="awesomefnt" alt="not found" />
-                    <span className="links" onClick={handleChange7} id="links-9"> LinkedIn</span>
+                    <img src={Linkedin} className="awesomefnt mx-1" alt="not found" onClick={handleChange7} id="links-9" />
                 </div>
                 <div>
-                    <img src={Github} className="awesomefnt" alt="not found" />
-                    <span className="links" onClick={handleChange8} id="links-10"> GitHub</span>
+                    <img src={Github} className="awesomefnt mx-1" alt="not found" onClick={handleChange8} id="links-10"/>
                 </div>
                 <div>
-                    <img src={Discord} className="awesomefnt" alt="not found" />
-                    <span className="links" onClick={handleChange9} id="links-11"> Discord</span>
+                    <img src={Discord} className="awesomefnt mx-1" alt="not found" onClick={handleChange9} id="links-11"/>
                 </div>
               </div>
             </div>
