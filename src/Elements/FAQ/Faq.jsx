@@ -18,7 +18,7 @@ export default function Ques() {
     return (
     <>
         <div className="mt-5 px-3" >
-            <img src={Faq} alt="" id="faqimg"/>
+            <img src={Faq} alt="" id="faqimg" style={{ padding: "1.0rem" }}/>
         </div>
         <div className="d-flex justify-content-center align-items-center mt-2">
             <div className="faq-cont d-flex flex-column w-75 justify-content-center align-items-center">

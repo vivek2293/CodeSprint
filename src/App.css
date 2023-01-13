@@ -1,469 +1,487 @@
-::-webkit-scrollbar{
-    display: none;
+::-webkit-scrollbar {
+  display: none;
 }
 * {
-    padding: 0.15vw;
-    margin: 0 !important;
-    box-sizing: border-box;
-  }
-  body{
-      background-color: black !important;
-      background-attachment: fixed;
-  }
-  /****************************************Navbar*****************************/
-  .burgerinsidediv{
-      width: 2rem;
-      height: 0.25rem;
-      background-color: black;
-      border-radius: 10px;
-  }
+  padding: 0.15vw;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+body {
+  background-color: black !important;
+  background-attachment: fixed;
+}
+/****************************************Navbar*****************************/
+.burgerinsidediv {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: black;
+  border-radius: 10px;
+}
 
-  #navdiv {
-    height: 7vw;
-    /* background: rgb(47,47,47); */
-  }
-  #gdscimage {
-    max-width: 35vw;
-  }
+#navdiv {
+  height: 7vw;
+  /* background: rgb(47,47,47); */
+}
+#gdscimage {
+  max-width: 35vw;
+}
 
-  #btn-3{
-    text-decoration: none;
-  }
-  #btn-1{
-    cursor: pointer;
-  }
-  #btn-2{
-    cursor: pointer;
-  }
-  #btn-4{
-    text-decoration: none;
-  }
-  #btn-5{
-    text-decoration: none;
-  }
+#btn-3 {
+  text-decoration: none;
+}
+#btn-1 {
+  cursor: pointer;
+}
+#btn-2 {
+  cursor: pointer;
+}
+#btn-4 {
+  text-decoration: none;
+}
+#btn-5 {
+  text-decoration: none;
+}
 
-  #btn-1:hover{
-      font-size: 1.2rem;
-      transition: 0.2s ease-in-out;
-  }
-  #btn-2:hover{
-      font-size: 1.2rem;
-      transition: 0.2s ease-in-out;
-  }
-  #btn-3:hover{
-    text-decoration: none;
-      font-size: 1.2rem;
-      transition: 0.2s ease-in-out;
-  }
-  #btn-4:hover{
-      font-size: 1.2rem;
-      transition: 0.2s ease-in-out;
-  }
-  #btn-5:hover{
-      font-size: 1.2rem;
-      transition: 0.2s ease-in-out;
-  }
-  
-  /**********************************main************************/
-  
-  
-  #logo {
-      width: 33vw;
-  }
-  #campaignlogo{
-    height:5vw;
-  }
-  
-  
-  
-  #mainsection{
-      height:100vh;
-      /* background-color: rgb(47,47,47); */
-  
-  }
-  
-  
-  
-  
-  
-  
-  #card1{
+#btn-1:hover {
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+}
+#btn-2:hover {
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+}
+#btn-3:hover {
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+}
+#btn-4:hover {
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+}
+#btn-5:hover {
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+}
+
+/**********************************main************************/
+
+#logo {
+  width: 33vw;
+}
+#campaignlogo {
+  height: 5vw;
+}
+
+#mainsection {
+  height: 100vh;
+  /* background-color: rgb(47,47,47); */
+}
+
+#card1 {
   /* background-color: rgb(216,81,64);
    */
-   background-image: linear-gradient(to bottom, #d85140, #db6850, #de7c62, #e09075, #e1a28a);
-  }
-  #card2{
-      /* background-color: rgb(83,131,236); */
-      background-image: linear-gradient(to bottom, #5383ec, #608dea, #6d97e8, #7ba1e4, #8aaae1);
-      }
-      #card3{
-          /* background-color: rgb(86,161,90); */
-          background-image: linear-gradient(to bottom, #56a15a, #60b174, #6cc18d, #7ad1a6, #8ae1bf);
-          }
-          #card4{
-              /* background-color: rgb(241,191,66); */
-              background-image: linear-gradient(to bottom, #f1bf42, #ecc455, #e8c967, #e4cd79, #e1d18a);
-              }
-              #card5{
-                background-image: linear-gradient(to bottom, #d85140, #db6850, #de7c62, #e09075, #e1a28a);
-
-                  }
-  #registerbtn{
-    padding: 1vh 5vw;
-    color: rgb(241,191,66);
-    border: 2px solid rgb(241,191,66);
-    margin-top: 1.5vw !important;
-  }
-  
-  #registerbtn:hover{
-      color:rgb(47,47,47);
-      background-color: rgba(255, 174, 0, 0.919);
-      border: 1px solid rgba(255, 174, 0, 0.919);
-  }
-  
-  #gdsclogo{
-      display: none;
-  }
-  
-  
-  .bullets-guideline{
-    list-style: none;
-
-  }
-
-  .bullets-guideline::before{
-    content: "\2022";
-    color: white;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
- 
-  
-  .upper-div {
-      background-color: #3c3a3a;
-      border-radius: 0.5rem;
-  }
-  
-  .lower-div{
-      background-color: #efefef;
-      border-radius: 0.3rem;
-      padding-left: 0.4rem;
-      padding-right: 0.1rem;
-  
-  }
-  #plus1 {
-      color: white;
-  }
-  
-  #minus1 {
-      color: white;
-  }
-  
-  #plus2 {
-      color: white;
-  }
-  
-  #minus2 {
-      color: white;
-  }
-  
-  #plus3 {
-      color: white;
-  }
-  
-  #minus3 {
-      color: white;
-  }
-  #faqmaindiv{
-  
-      background-color: rgb(47,47,47);
-  
-  }
-  #faqsubdiv{
-      border: 1px solid white;
-  
-  }
-  
-  #horizontalline{
-      color: orange;
-  }
-  
-  #timelinelogo{
-      width: 25vw;
-  }
-
-
-.devheat_image{
-    width: 1rem;
-  }
-
-
-  .footer-container{
-	max-width: 1170px;
-	margin:auto;
+  background-image: linear-gradient(
+    to bottom,
+    #d85140,
+    #db6850,
+    #de7c62,
+    #e09075,
+    #e1a28a
+  );
 }
-.footer-row{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+#card2 {
+  /* background-color: rgb(83,131,236); */
+  background-image: linear-gradient(
+    to bottom,
+    #5383ec,
+    #608dea,
+    #6d97e8,
+    #7ba1e4,
+    #8aaae1
+  );
 }
-ul{
-	list-style: none;
+#card3 {
+  /* background-color: rgb(86,161,90); */
+  background-image: linear-gradient(
+    to bottom,
+    #56a15a,
+    #60b174,
+    #6cc18d,
+    #7ad1a6,
+    #8ae1bf
+  );
+}
+#card4 {
+  /* background-color: rgb(241,191,66); */
+  background-image: linear-gradient(
+    to bottom,
+    #f1bf42,
+    #ecc455,
+    #e8c967,
+    #e4cd79,
+    #e1d18a
+  );
+}
+#card5 {
+  background-image: linear-gradient(
+    to bottom,
+    #d85140,
+    #db6850,
+    #de7c62,
+    #e09075,
+    #e1a28a
+  );
+}
+#registerbtn {
+  padding: 1vh 5vw;
+  color: rgb(241, 191, 66);
+  border: 2px solid rgb(241, 191, 66);
+  margin-top: 1.5vw !important;
 }
 
-.footer{
-    background: rgb(37, 37, 37);
-    padding: 35px 0;
-}
-.footer-col{
-   width: 25%;
-   /* padding: 0 12px; */
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
+#registerbtn:hover {
+  color: rgb(47, 47, 47);
+  background-color: rgba(255, 174, 0, 0.919);
+  border: 1px solid rgba(255, 174, 0, 0.919);
 }
 
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #e91e63;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
+#gdsclogo {
+  display: none;
 }
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+
+.bullets-guideline {
+  list-style: none;
+}
+
+.bullets-guideline::before {
+  content: "\2022";
+  color: white;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.upper-div {
+  background-color: #3c3a3a;
+  border-radius: 0.5rem;
+}
+
+.lower-div {
+  background-color: #efefef;
+  border-radius: 0.3rem;
+  padding-left: 0.4rem;
+  padding-right: 0.1rem;
+}
+#plus1 {
+  color: white;
+}
+
+#minus1 {
+  color: white;
+}
+
+#plus2 {
+  color: white;
+}
+
+#minus2 {
+  color: white;
+}
+
+#plus3 {
+  color: white;
+}
+
+#minus3 {
+  color: white;
+}
+#faqmaindiv {
+  background-color: rgb(47, 47, 47);
+}
+#faqsubdiv {
+  border: 1px solid white;
+}
+
+#horizontalline {
+  color: orange;
+}
+
+#timelinelogo {
+  width: 25vw;
+}
+
+.footerlogo {
+  width: 1rem;
+}
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+}
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+ul {
+  list-style: none;
+}
+
+.footer {
+  background: rgb(37, 37, 37);
+  padding: 35px 0;
+}
+.footer-col {
+  width: 25%;
+  /* padding: 0 12px; */
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .footer-col ul li span {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
-.links{
-    padding-left: 0;
-    padding-top: 1rem;
-    color: #f7c6a5;
+.links {
+  padding-left: 0;
+  padding-top: 1rem;
+  color: #f7c6a5;
 }
 
-.social-links{
-    padding-top: 1rem;
+.social-links {
+  padding-top: 1rem;
 }
-#user-img{
-    height: 4vh;
+#user-img {
+  height: 4vh;
 }
 
-.awesomefnt{
-    width: 1.5rem;
-    filter: invert(94%);
+.awesomefnt {
+  width: 1.5rem;
+  filter: invert(94%);
 }
 /*responsive*/
 
-
-
-
-.devheat_image {
-    width: 250px;
-	padding: 20px 0;
+.footerlogo {
+  width: 250px;
+  padding: 20px 0;
 }
 
-
-#pagediv{
-    background-color: black;
+#pagediv {
+  background-color: black;
 }
 
-#links-11:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-11:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-10:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-10:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-9:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-9:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-8:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-8:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-7:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-7:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-6:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-6:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-5:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-5:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-4:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-4:hover {
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: 0.2s ease-in-out;
 }
-#links-3:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-3:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-2:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
+#links-2:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
-#links-1:hover{
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
-    
+#links-1:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
 }
 .bg {
-    background: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-  
-    z-index: -2; 
-  }
-  .content{
-    position: absolute;
-    margin-top: 2rem;
+  background: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+
+  z-index: -2;
+}
+.content {
+  position: absolute;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+#footerlogo {
+  margin-top: 5vw;
+}
+#links-1 {
+  color: rgb(185, 185, 191) !important;
+}
+#links-2 {
+  color: rgb(185, 185, 191) !important;
+}
+#links-3 {
+  color: rgb(185, 185, 191) !important;
+}
+#links-4 {
+  color: rgb(185, 185, 191) !important;
+}
+#links5 {
+  color: rgb(185, 185, 191) !important;
+}
+#links6 {
+  color: rgb(185, 185, 191) !important;
+}
+#faqimg {
+  margin-top: 5vw;
+}
+
+@media (max-width: 574px) {
+  .footer-col {
     width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 3vw;
   }
-
-  #footerlogo{
-    margin-top: 5vw;
+  .footerlogo {
+    width: 125px;
+    padding: 20px 0;
   }
-
-  @media(max-width: 574px){
-  
-    .footer-col{
-      width: 100%;
-      /* display: flex; */
-      /* justify-content: center; */
-      padding-left: 3vw;
-  
-      }
-      .devheat_image {
-          width: 125px;
-          padding: 20px 0;
-      }
-      #footerlogo{
-        width: 43vw !important;
-          margin-top: 0vw !important;
-      }
-      #footerdiv{
-        display: flex !important;
-        flex-direction: column !important;
-      }
+  #footerlogo {
+    width: 43vw !important;
+    margin-top: 0vw !important;
   }
-  @media(max-width: 1000px){
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-      }
-    #card1{
-        width: 75vw !important;
-        margin-bottom: 3.5vw !important;
-    }
-    #card2{
-        width: 75vw !important;
-        margin-bottom: 3.5vw !important;
-
-    }
-    #card3{
-        width: 75vw !important;
-        margin-bottom: 3.5vw !important;
-
-    }
-    #card4{
-        width: 75vw !important;
-        margin-bottom: 3.5vw !important;
-
-    }
-    #card5{
-        width: 75vw !important;
-        margin-bottom: 3.5vw !important;
-
-    }
-      .devheat_image {
-          width: 125px;
-          padding: 20px 0;
-      }
+  #footerdiv {
+    display: flex !important;
+    flex-direction: column !important;
   }
-  @media(max-width : 768px){
-    #gdscimage{
-        display: none;
-        /* max-width: 60vw; */
-
-    }
-    #registerbtn{
-        padding: 0.4vh 3vw;
-        color: rgb(241,191,66);
-        border: 2px solid rgb(241,191,66);
-        margin-top: 2vw !important;
-      }
-    #tagline{
-        width: 37vw;
-    }
-    #campaignlogo{
-        height: 7.5vw;
-    }
-    #logo{
-        width: 50vw;
-    }
-    #navdiv{
-        height: 10vw;
-    }
-    #mainsection{
-        height:100vh;
-    
-    }
-    #gdsclogo{
-        padding-top: 1vh;
-        padding-left: 1vw;
-        display: flex;
-        width: 8vh;
+}
+@media (max-width: 1000px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  #card1 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  #card2 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  #card3 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  #card4 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  #card5 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  .footerlogo {
+    width: 35vw;
+    padding: 20px 0;
+  }
+  #timelinediv {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+@media (max-width: 768px) {
+  #gdscimage {
+    display: none;
+    /* max-width: 60vw; */
+  }
+  #registerbtn {
+    padding: 0.4vh 3vw;
+    color: rgb(241, 191, 66);
+    border: 2px solid rgb(241, 191, 66);
+    margin-top: 2vw !important;
+  }
+  #tagline {
+    width: 37vw;
+  }
+  #campaignlogo {
+    height: 7.5vw;
+  }
+  #logo {
+    width: 50vw;
+  }
+  #navdiv {
+    height: 10vw;
+  }
+  #mainsection {
+    height: 100vh;
+  }
+  #gdsclogo {
+    padding-top: 1vh;
+    padding-left: 1vw;
+    display: flex;
+    width: 8vh;
+  }
+}
+@media(max-width: 380px){
+    .awesomefnt{
+        width: 0.8rem;
     }
 }
-#links-1{
-    color: rgb(185, 185, 191) !important;
-}
-#links-2{
-    color: rgb(185, 185, 191) !important;
-}
-#links-3{
-    color: rgb(185, 185, 191) !important;
-}
-#links-4{
-    color: rgb(185, 185, 191) !important;
-}
-#links5{
-    color: rgb(185, 185, 191) !important;
-}
-#links6{
-    color: rgb(185, 185, 191) !important;
-}
-#faqimg{
-    margin-top: 5vw;
+@media(max-width: 340px){
+    .awesomefnt{
+        width: 0.6rem;
+    }
 }
