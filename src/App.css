@@ -9,7 +9,7 @@
 body {
   background-color: black !important;
   background-attachment: fixed;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-x: hidden; 
 }
 /****************************************Navbar*****************************/
 .burgerinsidediv {
@@ -293,7 +293,9 @@ ul {
 }
 
 #pagediv {
+  background: fixed;
   background-color: black;
+  z-index: -1;
 }
 
 #links-11:hover {
