@@ -10,6 +10,8 @@ import Milestones from '../Elements/Milestones/Milestones.jsx'
 function Homepage() {
   return (
     <>
+    <div className='bg'></div>
+    <div className='content'>
     <Navbar />
     <Main />
     <div id='pagediv'>
@@ -19,6 +21,9 @@ function Homepage() {
     <Milestones/>
     <Footer/>
     </div>
+
+    </div>
+   
     </>
 
   )

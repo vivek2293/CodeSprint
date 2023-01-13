@@ -364,3 +364,18 @@ ul{
     font-size: 1.2rem;
     transition: 0.2s ease-in-out;
 }
+.bg {
+    background: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+  
+    z-index: -2; 
+  }
+  .content{
+    position: absolute;
+    margin-top: 2rem;
+    width: 100%;
+  }
