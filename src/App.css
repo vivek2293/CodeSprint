@@ -9,6 +9,7 @@
 body {
   background-color: black !important;
   background-attachment: fixed;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 /****************************************Navbar*****************************/
 .burgerinsidediv {
