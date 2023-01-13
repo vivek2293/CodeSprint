@@ -6,7 +6,7 @@ import Tagline from "../../Assets/Tagline.svg"
 export default function Main() {
     return (
         <>
-            <div>
+            <section id="homepg">
             <section id="mainsection" className="d-flex justify-content-center align-items-center" >
                 <div className="d-flex flex-column align-items-center" id="maindiv" >
                         <Particle />
@@ -17,7 +17,7 @@ export default function Main() {
                         <button type="button" className="btn btn-custom button1 fw-bold" id="registerbtn">Register</button>
                 </div>
             </section>
-            </div>
+            </section>
           
         </>
     )

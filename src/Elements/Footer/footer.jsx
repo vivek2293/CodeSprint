@@ -57,20 +57,20 @@ export default function Footer() {
             <div className="footer-col my-1">
               <h4>Contact Us</h4>
               <ul className="links">
-                <li>
+                <li className="footerlist">
                   <img src={Users} className="awesomefnt" alt="not found" />
                   <span onClick={handleChange3} id="links-3">Community Page</span>
                 </li>
-                <li>
+                <li className="footerlist">
                   <img src={Envelope}  className="awesomefnt" alt="not found" />
                   <span style={{textTransform: "lowercase"}} onClick={handleChange4} id="links-4">
                     gdsc@iiitsurat.ac.in
                   </span>
                 </li>
-                <li>
+                <li className="footerlist">
                   <img src={Phone} alt="not found"  className="awesomefnt" id="links-5"/> <span id="links5">Person - Number</span> 
                 </li>
-                <li>
+                <li className="footerlist">
                  <img src={Phone} alt="not found" className="awesomefnt" id="links-6"/> <span id="links6"> Person - Number</span>
                 </li>
               </ul>
