@@ -41,7 +41,7 @@ export default function Footer() {
     //148 148 150
   return (
     <>
-      <section className="footer " id="footer">
+      <section className="footer" id="footer">
         <div className="footer-container" >
           <div className="footer-row" id="footerdiv">
             <div className="footer-col"  >
@@ -58,41 +58,41 @@ export default function Footer() {
               <h4>Contact Us</h4>
               <ul className="links">
                 <li className="footerlist">
-                  <img src={Users} className="awesomefnt" alt="not found" />
+                  <img src={Users} className="awesomefnt my-2" alt="not found" />
                   <span onClick={handleChange3} id="links-3">Community Page</span>
                 </li>
                 <li className="footerlist">
-                  <img src={Envelope}  className="awesomefnt" alt="not found" />
+                  <img src={Envelope}  className="awesomefnt my-2" alt="not found" />
                   <span style={{textTransform: "lowercase"}} onClick={handleChange4} id="links-4">
                     gdsc@iiitsurat.ac.in
                   </span>
                 </li>
                 <li className="footerlist">
-                  <img src={Phone} alt="not found"  className="awesomefnt" id="links-5"/> <span id="links5">Person - Number</span> 
+                  <img src={Phone} alt="not found"  className="awesomefnt my-2" id="links-5"/> <span id="links5">Sparsh Jhariya - 9685233329</span> 
                 </li>
                 <li className="footerlist">
-                 <img src={Phone} alt="not found" className="awesomefnt" id="links-6"/> <span id="links6"> Person - Number</span>
+                 <img src={Phone} alt="not found" className="awesomefnt my-2" id="links-6"/> <span id="links6"> Avanish Singh - 7898024589</span>
                 </li>
               </ul>
             </div>
             <div className="footer-col my-1">
               <h4>follow us</h4>
-              <div className="social-links d-flex ">
+              <div className="social-links d-flex mx-1">
                 <div>
-                <img src={Twitter} alt="not found" className="awesomefnt mx-1"  onClick={handleChange5} id="links-7"/>
+                <img src={Twitter} alt="not found" className="awesomefnt mx-2"  onClick={handleChange5} id="links-7"/>
 
                 </div>
                 <div>
-                <img src={Instagram} className="awesomefnt mx-1" alt="not found" onClick={handleChange6} id="links-8"/>
+                <img src={Instagram} className="awesomefnt mx-2" alt="not found" onClick={handleChange6} id="links-8"/>
                 </div>
                 <div>
-                    <img src={Linkedin} className="awesomefnt mx-1" alt="not found" onClick={handleChange7} id="links-9" />
+                    <img src={Linkedin} className="awesomefnt mx-2" alt="not found" onClick={handleChange7} id="links-9" />
                 </div>
                 <div>
-                    <img src={Github} className="awesomefnt mx-1" alt="not found" onClick={handleChange8} id="links-10"/>
+                    <img src={Github} className="awesomefnt mx-2" alt="not found" onClick={handleChange8} id="links-10"/>
                 </div>
                 <div>
-                    <img src={Discord} className="awesomefnt mx-1" alt="not found" onClick={handleChange9} id="links-11"/>
+                    <img src={Discord} className="awesomefnt mx-2" alt="not found" onClick={handleChange9} id="links-11"/>
                 </div>
               </div>
             </div>
