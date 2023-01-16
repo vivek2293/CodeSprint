@@ -35,8 +35,8 @@ function Timeline() {
                 </h6>
               </div>
               <p className="text-center text-light text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.dignissimos
+                Detailed session ReactJS library which will help you grasp each
+                and every of aspect of front-end stack.
               </p>
             </div>
             <div
@@ -51,8 +51,8 @@ function Timeline() {
                 </h6>
               </div>
               <p className="text-center text-light text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.dignissimos
+                Session on ways to handle servers & manage databases with
+                NodeJS, a complete back-end experience with many features of it.
               </p>
             </div>
           </div>
@@ -71,8 +71,8 @@ function Timeline() {
                 </h6>
               </div>
               <p className="text-center text-light text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.dignissimos
+                Intro to Postman API and other API rendering ways which will
+                help you playing with the
               </p>
             </div>
             <div
@@ -89,8 +89,8 @@ function Timeline() {
                 </h6>
               </div>
               <p className="text-center text-light text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.dignissimos
+                A week long program to teach flutter development for app
+                developers.
               </p>
             </div>
             <div
@@ -105,7 +105,8 @@ function Timeline() {
                 <h6 className="text-center text-dark m-2">April, 2023</h6>
               </div>
               <p className="text-center text-light text-light">
-                Devheat Beta, a week long hackathon for newbies to know & visualize tech stack.
+                Devheat Beta, a week long hackathon for newbies to know &
+                visualize various tech stack.
               </p>
             </div>
           </div>
